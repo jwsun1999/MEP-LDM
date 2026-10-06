@@ -1,0 +1,154 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# DotEnv configuration
+.env
+
+# Database
+*.db
+*.rdb
+
+# Pycharm
+.idea
+
+# Spyder
+.spyproject/
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# Mac OS-specific storage files
+.DS_Store
+
+# vim
+*.swp
+*.swo
+
+# Mypy cache
+.mypy_cache/
+
+# data
+saveddata/external/*
+saveddata/interim/*
+saveddata/processed/*
+saveddata/raw/*
+saveddata/savedsamples/*
+saveddata/MNIST/*
+saveddata/*
+
+# output data
+outputdata/*
+
+# output
+output/*
+
+# Saved model artifacts outside the source package.
+savedmodels/*
+!savedmodels/.gitkeep
+
+# lightning_logs
+lightning_logs/
+
+# reports
+reports/
+
+# Temporary files
+temp/
+
+# Ignore all notebooks in the exploratory directories
+notebooks/exploratory/**/*
+notebooks/tutorials/exploratory/*
+
+# Do not ignore notebooks that start with GITSHARE
+!notebooks/exploratory/**/GITSHARE*.ipynb
+
+# Ignore things that should not ever be there
+*.ckpt
+*-ubyte
+*-ubyte.gz
+scripts/training/old/*
+
+# Generated repository summaries
+repopack-output.txt
+
+# Local configuration files
+configs/*
+
+# Queue manager
+queue_manager.log
+
+# Temporary scripts
+scripts/**/temp*
+
+# Backup
+*.backup*
+.open_source_rollback/
+
+# Large local datasets and generated training artifacts
+Data/*
+mep_ldm/trainers/data/mep_cache/*
+scripts/training/vis/*
+*.pth
+*.pt
+*.npy
+*.npz
+*.raw
+*.ckpt
+*.joblib
+*.tif
+*.tiff
