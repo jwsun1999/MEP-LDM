@@ -30,7 +30,9 @@ python -m pip install -e .
 
 ## Training
 
-Raw datasets and checkpoints are not included in this repository. Pass a local dataset path explicitly, or set `data.path` in the YAML file before running training.
+
+To reproduce the Berea training results, download the dataset [here](https://digitalporousmedia.org/published-datasets/drp.project.published.DRP-317/digital_dataset/2a7221cc-2bba-45da-8685-360920722d1f), and run.
+Pass a local dataset path explicitly, or set `data.path` in the YAML file before running training.
 
 ```bash
 python scripts/training/train_mep_ldm_vae.py \
