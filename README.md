@@ -74,5 +74,4 @@ python tests/run_tests.py
 This project has used public porous-media resources such as:
 
 - The Eleven Sandstones database at Digital Rocks Portal: <https://www.digitalrocksportal.org/projects/317>
-- Micro-CT Images and Networks from Imperial College London: <https://www.imperial.ac.uk/earth-science/research/research-groups/pore-scale-modelling/micro-ct-images-and-networks/>
 
